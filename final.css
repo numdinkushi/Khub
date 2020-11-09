@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+      height: 100vh;
+      background-image: url(./header.jpg);
+      background-position: center;
+      background-size: cover ;
+
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;S
+}
+
+.logo {
+    margin-top: 20px;
+    width:150px px;
+}
+
+
+nav{
+    position: absolute ;
+    top: 0;
+    left: 0;
+   width: 80%;
+    height: 100%;
+    padding: 10px 90px;
+    border-bottom: 1px solid #fff;
+}
+
+.part2 {
+    height: 40vh;
+    width: 100%;
+    background: rgb(151, 207, 18);
+}
+
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+nav ul li a {
+    line height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration:none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.line {
+    width:100% ;
+    height: 1px;
+    background: white ;
+    display: inline-block;
+}
+.green-home {
+    color: rgb(151, 207, 18);
+}
+
+.header-text {
+    margin-top: 250px;
+text-align: center;
+}
+.head1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.para1 {
+font-size: 20px;
+color: white;
+}
+
+.engage {
+    margin-top: 40px;
+    margin-left: 50%; 
+    padding: 10px;
+    background: rgb(151, 207, 18);
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+.apple {
+    margin-left: 50%;
+    margin-top: 30px;
+}
+
+.text2 {
+   text-align: center;
+   width: 80vh;
+   color: white;
+   margin-left: 30%;
+}
+
+/*------best.....*/
+.best {
+    padding: 100px, 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.best-left-col {
+
+    flex-basis: 40%;
+    margin-top: 40px;
+}
+
+.best-left-col img {
+    border-radius: 100%;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 100%;
+   
+}
+
+.best-right-col {
+     flex-basis: 60%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top:-100px;
+    max-width: 400px;
+}
+
+.best-right-col .engage {
+    margin-left: 0px;
+    margin-top: 10px;
+    color: white;
+}
+
+.superior {
+    padding: 100px, 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    background: rgb(41, 35, 35);
+}
+
+.superior-left-col {
+    color: white;
+    max-width: 400px;
+    padding-left: 40px;
+    margin-left: 150px;
+}
+
+.superior-right-col{
+
+    max-width: 400px;
+    padding-left: 40px;
+}
+.superior-right-col img {
+    height: 308px;
+    margin-top: 60px;
+    margin-left: 150px;
+    border-radius: 100px;
+}
+
+.test {
+    margin-top: 40px;
+    margin-left: 50%; 
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    margin-left: 0px;
+}
+
+/*------- unleash------*/
+
+.col-1 {
+    background-image: url(./writing.jpg);
+  background-position: center;
+  background-size: cover;
+    float: left;
+    height: 200px;
+    width: 448px;
+    
+}
+
+.unleash-text {
+    color: white;
+    text-align: center;
+    margin-top: 125px;
+
+}
+
+.col-2 {
+    background-image: url(./concert.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height: 200px;
+    width: 448px;
+}
+
+.col-3 {
+    background-image: url(./pencil_sharpener.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    float: left;
+    height: 200px;
+    width: 448px;
+}
+    /*----fourth part _------*/
+   
+    .part-4 {
+        justify-content: center;
+        margin-left: 50vh;
+      margin-right: 50vh;
+      line-height: 30px;
+    }
+
+    .img-4 {  margin-left: 40vh;
+
+    }
+
+    
+   .text-4 {
+       margin-top: 10px;
+       text-align: center;
+       max-width: 100pxx;
+   }
+
+   .part-4 .engage {margin-left: 40vh;
+                    
+}
+
+   /*------last-------*/
+.last {
+    background: rgb(151, 207, 18);
+    height: 50vh;
+    width: 100vw;
+  padding-left: 0;
+  padding-top: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  color: white;
+}
+
+.
